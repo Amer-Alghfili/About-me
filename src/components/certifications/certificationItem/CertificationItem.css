@@ -1,0 +1,30 @@
+.certification {
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 50% 50%;
+    color: #E9EFFF;
+    width: 70%;
+    height: 20rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px 3px #777;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.certification:hover {
+    background-size: auto 120%;
+    transform: translateY(-0.2rem);
+    box-shadow: 2px 2px 4px 1px #777;
+}
+
+@media(max-width: 1180px) {
+    .certification {
+        background-size: 100%;
+    }
+
+    .certification:hover {
+        background-size: 120%;
+    }
+}

@@ -1,0 +1,30 @@
+.qualification {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #e9efff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+.qualification:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.qualification:hover .qualification__img {
+  height: 9rem;
+  width: 40%;
+}
+
+.qualification__img {
+  width: 30%;
+  height: 8rem;
+  transition: all 0.4s ease-in;
+}
+
+.qualification__arrow {
+  width: 10%;
+  height: 3rem;
+}
