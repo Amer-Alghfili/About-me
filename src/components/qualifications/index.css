@@ -1,6 +1,12 @@
 .qualifications {
-    height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(47, 92, 93, 0.4),
+      rgba(8, 108, 121, 0.3)
+    ),
     url("../../assets/img/simon-fitall-tvleqH3p1os-unsplash.jpg");
-    background-position: top 5%;
+  background-position: bottom 90%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% auto;
 }

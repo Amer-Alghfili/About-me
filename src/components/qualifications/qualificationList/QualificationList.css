@@ -1,9 +1,9 @@
 .qualification-list {
-  height: 100%;
+  /* height: 100%; */
   margin: auto;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
 }

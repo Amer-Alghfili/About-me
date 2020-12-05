@@ -1,30 +1,72 @@
 .certification {
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: 50% 50%;
-    color: #E9EFFF;
-    width: 70%;
-    height: 20rem;
-    margin: 1rem 0;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 4px 4px 6px 3px #777;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+  color: #e9efff;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.certification:hover {
-    background-size: auto 120%;
-    transform: translateY(-0.2rem);
-    box-shadow: 2px 2px 4px 1px #777;
+.certification__date {
+  width: 100%;
 }
 
-@media(max-width: 1180px) {
-    .certification {
-        background-size: 100%;
-    }
+.certification__date::before,
+.certification__date::after {
+  content: "";
+  display: inline-block;
+  background-color: #e9efff;
+  width: 30%;
+  height: 0.1rem;
+  margin: 0 1rem;
+  vertical-align: middle;
+}
 
-    .certification:hover {
-        background-size: 120%;
-    }
+.certification__logo {
+  height: 10rem;
+  transform: scaleY(1);
+  transition: transform 200ms ease-in;
+}
+
+.certification:hover .certification__logo {
+  transform: scale(1.1);
+}
+
+.certification__title {
+  font-size: 2em;
+}
+
+.certification__description {
+  width: 50%;
+  line-height: 2.5rem;
+}
+
+.certification__syllabus {
+  text-decoration: underline;
+  transition: color 200ms ease-in;
+}
+
+.certification__syllabus:hover {
+  color: #b8bbc5;
+}
+
+.certification__print {
+  border: 1px solid #e9efff;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.certification__print-img {
+  height: 2rem;
+  transform: scale(1);
+  transition: transform 200ms ease-in;
+}
+
+.certification__print:hover .certification__print-img {
+  transform: scale(1.2);
+}
+
+.certification__print p {
+  margin: 0;
 }
