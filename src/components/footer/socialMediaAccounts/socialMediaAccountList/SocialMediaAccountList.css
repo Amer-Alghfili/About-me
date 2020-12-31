@@ -1,0 +1,8 @@
+.accounts-nav {
+    width: 30%
+}
+
+.accounts {
+    display: flex;
+    justify-content: center;
+}

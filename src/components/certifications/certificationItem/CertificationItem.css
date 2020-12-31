@@ -1,5 +1,4 @@
 .certification {
-  color: #e9efff;
   width: 100%;
   margin: 1rem 0;
   padding: 1rem;
@@ -16,7 +15,7 @@
 .certification__date::after {
   content: "";
   display: inline-block;
-  background-color: #e9efff;
+  background-color: #f8c48d;
   width: 30%;
   height: 0.1rem;
   margin: 0 1rem;
@@ -39,17 +38,10 @@
 
 .certification__description {
   width: 50%;
+  font-size: 1.2rem;
   line-height: 2.5rem;
 }
 
-.certification__syllabus {
-  text-decoration: underline;
-  transition: color 200ms ease-in;
-}
-
-.certification__syllabus:hover {
-  color: #b8bbc5;
-}
 
 .certification__print {
   border: 1px solid #e9efff;

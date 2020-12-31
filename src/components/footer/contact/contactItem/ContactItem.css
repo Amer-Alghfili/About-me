@@ -1,0 +1,9 @@
+.contact {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.contact__value {
+    color: #E9EFFF;
+    margin-left: 1rem;
+}

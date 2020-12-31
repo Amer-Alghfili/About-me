@@ -1,0 +1,39 @@
+.experience__logo--container {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.experience__logo {
+  height: 100%;
+}
+
+.experience__date {
+  width: 100%;
+}
+
+.experience__date--year {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.experience__date--year::before,
+.experience__date--year::after {
+  content: "";
+  display: inline-block;
+  background-color: #f8c48d;
+  width: 40%;
+  height: 0.1rem;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+}
+
+.experience__date--month {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.experience__logo--container {
+  margin: 1rem 0;
+}

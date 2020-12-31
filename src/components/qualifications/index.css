@@ -1,12 +1,11 @@
 .qualifications {
-  height: 100vh;
+  /* height: 100vh; */
   background-image: linear-gradient(
-      rgba(47, 92, 93, 0.4),
-      rgba(8, 108, 121, 0.3)
+      rgba(59, 43, 17, 0.6),
+      rgba(59, 43, 17, 0.4)
     ),
-    url("../../assets/img/simon-fitall-tvleqH3p1os-unsplash.jpg");
-  background-position: bottom 90%;
+    url("../../assets/img/kurt-cotoaga-cqbLg3lZEpk-unsplash.jpg");
+  background-position: top 20% right 20%; 
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 100% auto;
+  background-attachment: fixed;
 }

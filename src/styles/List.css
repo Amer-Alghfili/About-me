@@ -1,0 +1,9 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list--row {
+  flex-direction: row;
+  justify-content: space-around;
+}

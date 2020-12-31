@@ -9,7 +9,7 @@ function App() {
       <main>
         <Qualifications />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

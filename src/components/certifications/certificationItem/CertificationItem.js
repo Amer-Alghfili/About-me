@@ -1,4 +1,5 @@
 import React from "react";
+import '../../../styles/Item.css'
 import "./CertificationItem.css";
 import printLogo from "../../../assets/img/printer.svg";
 
@@ -16,16 +17,11 @@ export default function CertificationItem({
       <img className="certification__logo" src={img} alt={`${name} logo`} />
       <h1 className="certification__title">{name}</h1>
       <h2 className="certification__subtitle">{major}</h2>
-      <p className="certification__description">
-        {description}{" "}
-        <a className="certification__syllabus" href={syllabusLink}>
-          checkout syllabus from here
-        </a>
-      </p>
-      <a className="certification__print">
+      <p className="certification__description">{description}</p>
+      {/* <a className="certification__print">
         <img className="certification__print-img" src={printLogo} />
         <p>Print certificate</p>
-      </a>
+      </a> */}
     </article>
   );
 }

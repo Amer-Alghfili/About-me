@@ -3,7 +3,6 @@ import "./QualificationItem.css";
 import { componentMatches, qualifications } from "../../../util";
 import arrow from "../../../assets/img/angle-arrow-down.svg";
 import { useSpring, animated, config } from "react-spring";
-import { useMount } from "../../../hooks/useMount";
 import { useMeasure } from "react-use";
 
 export default function QualificationItem({ type, img }) {
@@ -25,7 +24,6 @@ export default function QualificationItem({ type, img }) {
   });
 
   const renderedQualification = componentMatches(type, isOpened);
-
   React.useEffect(
     function updateHeightFromRef() {
       setHeight(height);
